@@ -50,7 +50,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-The project personalized for my  purposes. See the MIT.md file
+The original design of this project is by Nelson Sakwa. You can view by link below: https://www.behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29
 
 ## 📝 License
 
