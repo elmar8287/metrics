@@ -4,7 +4,7 @@ import {
 } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Provider } from 'react-redux';
-import store from './redux/configureStore';
+import store from './redux/configStore';
 import Head from './components/Head';
 import Details from './components/Details';
 import Home from './components/Home';
