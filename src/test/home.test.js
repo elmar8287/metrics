@@ -17,5 +17,5 @@ describe('Home page render correctly', () => {
       )
       .toJSON();
     expect(tree).toMatchSnapshot();
-  })
+  });
 });

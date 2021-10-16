@@ -36,7 +36,6 @@ const DetailsDesc = ({
 );
 
 DetailsDesc.propTypes = {
-  name: PropTypes.string.isRequired,
   confirmed: PropTypes.number.isRequired,
   deaths: PropTypes.number.isRequired,
   recovered: PropTypes.number.isRequired,
