@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { FaArrowCircleRight } from 'react-icons/fa';
 
 const Country = ({ name, confirmedCases }) => (
@@ -15,5 +16,10 @@ const Country = ({ name, confirmedCases }) => (
     </div>
   </li>
 );
+
+Country.propTypes = {
+  name: PropTypes.string.isRequired,
+  confirmedCases: PropTypes.number.isRequired,
+};
 
 export default Country;
