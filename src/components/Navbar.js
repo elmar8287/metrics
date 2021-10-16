@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import '../assets/css/nav.css';
 
 const Navbar = ({ text, year }) => (
   <section>
-    <div>
+    <div className="top-menu">
       <Link to="/">
         <p>Home page</p>
       </Link>

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { BrowserRouter as Router } from 'react-router-dom';
@@ -18,5 +17,5 @@ describe('Home page render correctly', () => {
       )
       .toJSON();
     expect(tree).toMatchSnapshot();
-  });
+  })
 });
