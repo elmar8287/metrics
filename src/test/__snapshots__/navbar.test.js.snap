@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component test snapshot Router renders correctly 1`] = `
+<a
+  aria-current="page"
+  className="active"
+  href="/"
+  onClick={[Function]}
+  style={Object {}}
+/>
+`;

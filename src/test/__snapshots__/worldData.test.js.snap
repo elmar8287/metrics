@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page render correctly Home component renders correctly 1`] = `
+<section>
+  <div
+    className="main-info"
+  >
+    <aside
+      className="world-info"
+    >
+      <h2>
+        Worldwild Info
+      </h2>
+      <span>
+        0 cases
+      </span>
+    </aside>
+  </div>
+</section>
+`;
