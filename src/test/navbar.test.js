@@ -8,7 +8,8 @@ describe('Component test snapshot', () => {
     const tree = renderer
       .create(
         <Router>
-          <NavLink to="/"><FaArrowLeft className="icon" />
+          <NavLink to="/">
+            <FaArrowLeft className="icon" />
           </NavLink>
         </Router>,
       )
