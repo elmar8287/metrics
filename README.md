@@ -6,6 +6,9 @@
 ## The project deployed on [Netlify](https://www.netlify.com/). <br><b>Check deployed [demo](https://elmar-project-covid19.netlify.app/).</b>
 <br>
 
+### Check recorder [video](https://www.loom.com/share/775eda78f2da414baaecd5f88504d192?sharedAppSource=personal_library).</b>
+<br>
+
 ## Project screenshots:
 
 ### Country list page:
