@@ -1,23 +1,35 @@
-import { Switch, Route } from 'react-router-dom';
-import { Provider } from 'react-redux';
-import Home from './components/Home';
-import Details from './components/Details';
-import store from './redux/configStore';
 import './App.css';
+import {
+  BrowserRouter as Router, Route, Switch, Redirect,
+} from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Provider } from 'react-redux';
+import store from './redux/configureStore';
+import Header from './components/Header';
+import Rockets from './components/Rockets';
+import Missions from './components/Missions';
+import Profile from './components/Profile';
 
-const App = () => (
-  <Provider store={store}>
-    <div className="App">
-      <Switch>
-        <Route path="/details/:name">
-          <Details />
-        </Route>
-        <Route exact path="/">
-          <Home />
-        </Route>
-      </Switch>
-    </div>
-  </Provider>
-);
+function App() {
+  return (
+    <Provider store={store}>
+      <Router>
+        <Header />
+        <Switch>
+          <Route path="/rockets">
+            <Rockets />
+          </Route>
+          <Route path="/missions">
+            <Missions />
+          </Route>
+          <Route path="/profile">
+            <Profile />
+          </Route>
+          <Redirect from="/" to="rockets" />
+        </Switch>
+      </Router>
+    </Provider>
+  );
+}
 
 export default App;
