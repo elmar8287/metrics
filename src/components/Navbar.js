@@ -1,21 +1,27 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import '../assets/css/nav.css';
-import { AiFillCaretLeft } from "react-icons/ai";
+import { FaMicrophone, FaArrowLeft, FaCog } from 'react-icons/fa';
+import '../assets/css/style.css';
 
 const Navbar = ({ text, year }) => (
-  <section>
-    <div className="top-menu">
-      <Link to="/">
-        <p><AiFillCaretLeft /></p>
-      </Link>
-      <h1>{year}</h1>
-    </div>
-    <div>
-      <p>something</p>
-    </div>
-  </section>
+  <header>
+    <nav className="nav">
+      <div className="year">
+        <Link to="/" className="left-arrow">
+          <FaArrowLeft className="icon" />
+        </Link>
+        <h1>{year}</h1>
+      </div>
+      <div>
+        <span>{text}</span>
+      </div>
+      <div className="settings">
+        <FaMicrophone className="icon" />
+        <FaCog className="icon" />
+      </div>
+    </nav>
+  </header>
 );
 
 Navbar.propTypes = {

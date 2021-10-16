@@ -6,6 +6,7 @@ import Data from './Data';
 import Navbar from './Navbar';
 import Country from './Country';
 import WorldData from './WorldData';
+import '../assets/css/style.css';
 
 const Home = () => {
   const state = useSelector((state) => state.countriesReducer);
