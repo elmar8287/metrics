@@ -25,12 +25,12 @@ const Home = () => {
 
   return (
     <>
-      <Navbar text="World Covid-19 Stats" year="2021" />
+      <Navbar text="WorldData Covid-19 Stats" year="2021" />
       <WorldData totalConfirmed={totalConfirmed} />
       <section>
         <Data filter={filter} onChange={onChange} />
-        <h3>Stats By Country</h3>
-        <ul>
+        <h3 className="stats-name">Stats By Country</h3>
+        <ul className="container">
           {oneCountry && oneCountry
             .filter((location) => location.name.toLowerCase().includes(filter.toLowerCase()) || filter === '')
             .map((country) => {
@@ -45,6 +45,7 @@ const Home = () => {
               } = country;
               return (
                 <Link
+                  className="country-card"
                   key={id}
                   to={{
                     pathname: `/details/${name}`,
