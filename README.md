@@ -17,7 +17,7 @@
 
 ## Setup
 - git clone https://github.com/elmar8287/metrics.git
-- cd ./react-math
+- cd ./metrics
 
 ## Install
 npm install
