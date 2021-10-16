@@ -4,9 +4,8 @@ import { Link } from 'react-router-dom';
 import { fetchCountriesFromApi } from '../redux/home';
 import Data from './Data';
 import Navbar from './Navbar';
-import CountryData from './CountryData';
-import World from './World';
-import './home.css';
+import Country from './Country';
+import WorldData from './WorldData';
 
 const Home = () => {
   const state = useSelector((state) => state.countriesReducer);
@@ -27,11 +26,11 @@ const Home = () => {
   return (
     <>
       <Navbar text="World Covid-19 Stats" year="2021" />
-      <World totalConfirmed={totalConfirmed} />
+      <WorldData totalConfirmed={totalConfirmed} />
       <section>
         <Data filter={filter} onChange={onChange} />
-        <h3 className="stats-name">Stats By Country</h3>
-        <ul className="container">
+        <h3>Stats By Country</h3>
+        <ul>
           {oneCountry && oneCountry
             .filter((location) => location.name.toLowerCase().includes(filter.toLowerCase()) || filter === '')
             .map((country) => {
@@ -46,7 +45,6 @@ const Home = () => {
               } = country;
               return (
                 <Link
-                  className="country-card"
                   key={id}
                   to={{
                     pathname: `/details/${name}`,
@@ -61,7 +59,7 @@ const Home = () => {
                     },
                   }}
                 >
-                  <CountryData name={name} confirmedCases={confirmedCases} />
+                  <Country name={name} confirmedCases={confirmedCases} />
                 </Link>
               );
             })}

@@ -7,7 +7,7 @@ import Details from './components/Details';
 
 const App = () => (
   <Provider store={store}>
-    <div className="App">
+    <div>
       <Switch>
         <Route path="/details/:name">
           <Details />
