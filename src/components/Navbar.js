@@ -6,6 +6,7 @@ const Navbar = ({ text, year }) => (
   <section>
     <div>
       <Link to="/">
+        <p>something</p>
       </Link>
       <h1>{year}</h1>
     </div>
@@ -13,6 +14,7 @@ const Navbar = ({ text, year }) => (
       <h2>{text}</h2>
     </div>
     <div>
+      <p>something</p>
     </div>
   </section>
 );
