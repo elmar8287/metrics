@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { FaArrowCircleRight } from 'react-icons/fa';
 
 const Country = ({ name, confirmedCases }) => (
-  <li>
-    <div>
-      <p>icon</p>
+  <li className="country-data">
+    <div className="right">
+      <FaArrowCircleRight className="arrow" />
     </div>
     <div>
       <aside>

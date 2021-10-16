@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../assets/css/style.css';
 
 const Data = ({ filter, onChange }) => (
   <div>
@@ -7,7 +8,8 @@ const Data = ({ filter, onChange }) => (
       type="text"
       value={filter}
       onChange={onChange}
-      placeholder="Search Country"
+      placeholder="...search country"
+      className="search"
     />
   </div>
 );

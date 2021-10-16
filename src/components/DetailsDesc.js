@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../assets/css/style.css';
 
 const DetailsDesc = ({
-  name,
   confirmed,
   deaths,
   recovered,
@@ -11,22 +11,21 @@ const DetailsDesc = ({
   <>
     <div>
       <aside>
-        <h2>{name}</h2>
-        <div>
+        <div className="detail-info">
           <div>
-            <span>Total Confirmed </span>
+            <span className="total-number">Total Confirmed </span>
             <h3>{`${confirmed} cases`}</h3>
           </div>
           <div>
-            <span>Total Deaths</span>
+            <span className="total-number">Total Deaths</span>
             <h3>{`${deaths} cases`}</h3>
           </div>
           <div>
-            <span>Total Recovered</span>
+            <span className="total-number">Total Recovered</span>
             <h3>{`${recovered} cases`}</h3>
           </div>
           <div>
-            <span>Total Open</span>
+            <span className="total-number">Total Open</span>
             <h3>{`${open} cases`}</h3>
           </div>
         </div>
@@ -37,7 +36,6 @@ const DetailsDesc = ({
 );
 
 DetailsDesc.propTypes = {
-  name: PropTypes.string.isRequired,
   confirmed: PropTypes.number.isRequired,
   deaths: PropTypes.number.isRequired,
   recovered: PropTypes.number.isRequired,
