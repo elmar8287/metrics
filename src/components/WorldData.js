@@ -5,7 +5,7 @@ const WorldData = ({ totalConfirmed }) => (
   <section>
     <div>
       <div>
-      
+        <p>icon maybe</p>
       </div>
       <aside>
         <h2>World</h2>
