@@ -1,17 +1,25 @@
-<!-- # Getting Started with Create React App -->
-# METRICS - capstone project in React
-## This React capstone project is about building a mobile web application to check a list of metrics (numeric values) that you will create making use of React and Redux.
+# <b>COVİD-19 METRICS</b>
+## <b>This is a capstone project in React Module</b>
+### <i>The project is about building a mobile web application to check a list of Worldwide COVID-19 metrics (numeric values). By clicking on country name, there is a posibility to view more detail information.</i>
+<br>
 
-## Check deployed [demo]().
+## The project deployed on [Netlify](https://www.netlify.com/). <br><b>Check deployed [demo]().</b>
+<br>
 
-![Screen Shot]()
+## Project screenshots:
+![Screenshot]()
 
+## Tested with React Renderer
+### Test results screenshot:
+
+![Test Screenshot](./src/assets/screenshots/test-result.PNG)
 # Built With
 - ReactJS
 - Redux
 - JS 
 - CSS
-- Node.js 
+- Node.js
+- Netlify
 
 # Getting Started
 
@@ -35,7 +43,7 @@ npm test
 
 👤 **Elmar Abdulkarimov**
 
-- GitHub: [@elmar8287](https://github.com/elmar8287)
+- GitHub: [Elmar Abdulkarimov](https://github.com/elmar8287)
 
 
 ## 🤝 Contributing

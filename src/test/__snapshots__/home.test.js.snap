@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page render correctly Home component renders correctly 1`] = `
+Array [
+  <section>
+    <div>
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <p>
+          Home page
+        </p>
+      </a>
+      <h1>
+        2021
+      </h1>
+    </div>
+    <div>
+      <h2>
+        World Covid-19 Stats
+      </h2>
+    </div>
+    <div>
+      <p>
+        something
+      </p>
+    </div>
+  </section>,
+  <section>
+    <div>
+      <div>
+        <p>
+          icon maybe
+        </p>
+      </div>
+      <aside>
+        <h2>
+          World
+        </h2>
+        <span>
+          0 cases
+        </span>
+      </aside>
+    </div>
+  </section>,
+  <section>
+    <div>
+      <input
+        onChange={[Function]}
+        placeholder="Search Country"
+        type="text"
+        value=""
+      />
+    </div>
+    <h3>
+      Stats By Country
+    </h3>
+    <ul />
+  </section>,
+]
+`;
