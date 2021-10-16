@@ -3,7 +3,7 @@
 ### <i>The project is about building a mobile web application to check a list of Worldwide COVID-19 metrics (numeric values). By clicking on country name, there is a posibility to view more detail information.</i>
 <br>
 
-## The project deployed on [Netlify](https://www.netlify.com/). <br><b>Check deployed [demo]().</b>
+## The project deployed on [Netlify](https://www.netlify.com/). <br><b>Check deployed [demo](https://elmar-project-covid19.netlify.app/).</b>
 <br>
 
 ## Project screenshots:
