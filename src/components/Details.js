@@ -2,6 +2,7 @@ import React from 'react';
 import { useLocation } from 'react-router-dom';
 import Navbar from './Navbar';
 import DetailsDesc from './DetailsDesc';
+import '../assets/css/style.css';
 
 const Details = () => {
   const location = useLocation();

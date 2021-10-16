@@ -1,6 +1,12 @@
+body {
+  background-color: #7d9bd8;
+}
+
 .stats-name {
-  color: #eee;
-  letter-spacing: 3px;
+  padding: 10px 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(40, 3, 139);
+  width: 100%;
 }
 
 .container {
@@ -40,9 +46,8 @@
 
   .stats-name {
     padding: 10px 20px;
-    font-size: 22px;
-    text-transform: uppercase;
-    width: 95%;
+    font-size: 15px;
+    width: 96%;
   }
 }
 
@@ -125,4 +130,44 @@ nav span {
   .settings {
     gap: 15px;
   }
+}
+
+.total-number {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+.detail-info {
+  padding: 10px;
+  margin: 100px 0 0 40px;
+}
+
+.search {
+  border: solid rgb(4, 29, 167);
+  border-radius: 5px;
+  padding: 5px;
+  margin: 30px 0 0 15px;
+  width: 260px;
+}
+
+.main-info {
+  margin-top: 100px;
+}
+
+.world-info {
+  padding: 20px;
+  color: rgb(34, 0, 129);
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.country-data {
+  list-style: none;
 }
