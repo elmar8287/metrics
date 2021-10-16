@@ -7,8 +7,12 @@
 <br>
 
 ## Project screenshots:
-![Screenshot]()
 
+### Country list page:
+![Country list](./src/assets/screenshots/country-list.PNG)
+
+### Country detail page:
+![Country detail view](./src/assets/screenshots/country-detail.PNG)
 ## Tested with React Renderer
 ### Test results screenshot:
 
